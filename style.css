@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: #ffff;
+    height: 5rem;            /*height to heading increase*/
+    text-align: center;     /*text comes to center*/
+    line-height: 5rem;     /*heading line come into center*/
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;                   /* to align the border center and proper way need to put this 3 lines*/
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;  /*background color of border images*/
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;    /*to set image proper way to get out of shrink*/
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;   /*make whole choices to align proper in beside other*/
+    align-items: center;
+    gap: 3rem;         /*gap bettwen each image*/
+    margin-top: 5rem;  /*give a gap bettwen margin to image*/
+}
+
+/*upto here done with design part*/
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+      font-size: 4rem;
+}
+
+/*done with score board.... YOU, COMP*/
+
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+
+#msg{
+    background-color: #081b31;
+    color: #ffff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
